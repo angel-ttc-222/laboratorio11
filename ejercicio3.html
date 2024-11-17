@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 11 Ejercicio 3</title>
+</head>
+<body>
+    <h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Ver resultado en consola.</h2>
+    <script>
+        let numero = parseInt(prompt("Ingrese el valor de su compra: "));
+        if (numero > 100) {
+            let total = numero - (numero * 0.1);
+            console.log("El valor de su compra con descuento es: " + total);
+        }else {
+            console.log("El valor de su compra es: " + numero)
+        }
+    </script>
+</body>
+</html>
